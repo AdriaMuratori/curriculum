@@ -1,0 +1,208 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1.2fr 0.6fr 0.5fr 0.3fr;  
+}
+
+.text  { 
+    max-width: 400px;
+}
+
+.cell { 
+    display: flex;
+    padding-left: 60px;
+}
+
+.a {
+    background-color: #FCD59B;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 6rem;
+  
+}
+
+#sub {
+    color:#2657C1;
+    font-size: 2.5rem;
+    font-family: 'Iceland', cursive;
+}
+
+.foto {
+    width: 500px;
+    object-fit: cover;
+}
+
+li::marker {
+    color: #2657C1;
+}
+
+.b {
+    background-color:#FCD59B;
+    padding-left: 0;
+}
+
+.c {
+    padding-top: 30px;
+    background-color: #F7F7F7;
+}
+
+.d {
+    padding-top: 30px;
+}
+
+.e {
+    padding-top: 30px;
+
+}
+
+.f {
+    background-color: #F7F7F7;
+    padding-top: 30px;
+}
+
+.g {
+    background-color: #F7F7F7;
+    padding-top: 30px;
+}
+
+.h {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.icono {
+    width: 60px;
+    height: 60px;
+    background-color: #FCD59B;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.i {
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    background-color: #1FA8CF;
+    padding-left: 0px;
+}
+
+.contact {
+    text-align: center; 
+}
+
+.footer {
+    background-color:#FCD59B;
+    text-align: center;
+    font-size: 1;
+    padding: 30px;
+}
+
+#linkedin {
+    color:#2657C1;
+}
+
+#copir {
+    font-size: 01rem;
+}
+
+@media (max-width:1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    * {
+        font-size:1.5rem;
+    }
+
+    .text  { 
+        max-width: 800px;
+    }
+
+    #sub {
+        color:#2657C1;
+        font-size: 3rem;
+    }
+
+    .e {
+        background-color: #F7F7F7;
+    }
+
+    .f {
+        background-color: white;
+    }
+
+    .iconos {
+        display: flex;
+    }
+
+    .icono {
+        margin-right: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .bi-joystick {
+        width: 80px;
+        height:80px;
+    }
+
+    .bi-airplane-fill {
+        width: 80px;
+        height:80px;   
+    }
+
+    .bi-tree-fill {
+        width: 80px;
+        height:80px;     
+    }
+
+    .bi-cassette-fill {
+        width: 80px;
+        height:80px;    
+    }
+
+    .bi-telephone {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bi-envelope {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
